@@ -11,3 +11,4 @@ target_compile_features(aoc_tools INTERFACE cxx_std_23)
 target_include_directories(aoc_tools INTERFACE "lib")
 
 # Include sub-projects.
+add_subdirectory ("day01")
